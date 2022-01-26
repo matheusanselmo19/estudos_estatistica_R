@@ -27,3 +27,4 @@ nivel.sigma1 = (LSE-media)/sd
 nivel.sigma2 = (media-LIE)/sd
 
 ss.ca.cp(wine, 740, 760)
+ss.ca.cpk(wine, 740, 760)
