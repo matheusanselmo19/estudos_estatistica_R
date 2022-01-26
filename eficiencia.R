@@ -28,3 +28,5 @@ nivel.sigma2 = (media-LIE)/sd
 
 ss.ca.cp(wine, 740, 760)
 ss.ca.cpk(wine, 740, 760)
+ss.ca.cp(wine,740,760,ci=TRUE)
+ss.ca.cpk(wine, 740, 760,ci=TRUE)
