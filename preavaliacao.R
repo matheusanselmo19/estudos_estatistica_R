@@ -48,10 +48,15 @@ turno.b = c(141,152,147,147,161,147,169,146,147,144,157,145,136,144,154)
 t.test(turno.a, turno.b, alternative = "less")
 #9
 tempo.9 = c(140,144,150,145,142,139,134,152,147,146,153,145,141,141,137,149,143,144)
+t.test(tempo.9,mu = 147, alternative = "less")
+# o tempo é menor. letra b
 
 #10
 antiga = c(52,49,50,49,52)
 nova = c(51,48,54,52,53)
+# nova = c(1,4,5,5,3)
+t.test(nova,antiga, alternative = "less")
+# o  tempo é maior ou igual, letra a
 
 #11
 empresa1 = c(11,12,10,9,13,9,7,8,8,8,11,7,9,10,9)
