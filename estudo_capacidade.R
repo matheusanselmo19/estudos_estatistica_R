@@ -31,7 +31,7 @@ ss.study.ca(dados3$prototipo3, LSL = 1.1, USL = 1.7, Target = 1.4)
 dados4 <- read.csv("estudo_capacidade4.csv", header = TRUE, sep = ",")
 ss.study.ca(dados4$prototipo3, LSL = 1.1, USL = 1.7, Target = 1.4)
 
-# lançamento do protótipo 3 a 2 metros de altura
+# lançamento do protótipo 3 a 2.x metros de altura
 dados5 <- read.csv("estudo_capacidade5.csv", header = TRUE, sep = ",")
 ss.study.ca(dados5$prototipo2, LSL = 1.1, USL = 1.7, Target = 1.4)
 

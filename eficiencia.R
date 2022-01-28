@@ -31,3 +31,17 @@ ss.ca.cpk(wine, 740, 760)
 ss.ca.cp(wine,740,760,ci=TRUE)
 ss.ca.cpk(wine, 740, 760,ci=TRUE)
 ss.study.ca(wine, LSL = 740, USL = 760, Target = 750, alpha = 0.05)
+
+###############
+horas.semana = 8 * 5 * 60
+custo.fixo = 6000
+preco.p = 90 # maximo 100
+max.p = 100
+preco.q = 100 # maximo 50
+max.q = 50
+
+lucro.p = preco.p - 45
+lucro.q = preco.q - 40
+
+investimento = 100000
+custo.fixo2 = 6400
